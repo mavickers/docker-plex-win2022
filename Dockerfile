@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows:1809
+FROM mcr.microsoft.com/windows/servercore:ltsc2022
 
 # Copy/download install files to container
 COPY PlexSetup C:\\PlexSetup
